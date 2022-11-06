@@ -46,3 +46,30 @@ int min(int a, int b)
         return b;
     }
 }
+
+/*
+#include <stdio.h>
+#include <stdlib.h>
+
+//Solve this problem without using your terminal.
+
+int r()
+{
+   static int count = 7;
+
+
+   return count--;
+}
+int main()
+{
+
+
+  for (r();r();r())
+
+   printf("%d\n", r());
+}
+
+
+
+
+*/
